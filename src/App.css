@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+#root{
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  justify-items: center;
+
+  background-color: darkgreen;
+  color: black;
+}
+  
+header, footer {
+  width: 100vw;
+
+  text-align: center;
+  
+  color: black;
+  
+  background: linear-gradient(45deg, brown, orange, brown);
+  animation: gradient 15s ease infinite;
+}
+  
+header{
+  font-size: 3rem;
+}
+footer {
+  font-size: 1rem;
+}
+
+main{
+  width: 100vw;
+
+  background-image: url(/public/background-sandclock.jpg);
+  background-position: center;
+  background-size:cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: xx-large;
+  text-align: center;
+}
+
+#instructions {
+  width: 75%;
+
+  font-size:medium;
+  color: antiquewhite;
+}
+
+.configuration {
+  width: 75%;
+
+  display: flex;
+  flex-direction: row;
+  
+  background-color: sandybrown;
+}
+
+.length, .buttonPad, .monitor {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.length{
+  width: 75%;
+}
+
+.monitor {
+  width: 75%;
+  background-color: orange;
+}
+
+.timer {
+  font-size: 5rem;
+
+  color: green
+}
+
+.timer.finalSeconds {
+  color: darkred
+}
+
+button{
+  margin: 0.25rem;
+
+  width: 2rem;
+  height: 2rem;
+}
+
+button:hover{
+  background-color: pink;
+  transition: background-color 1s ease-in-out;
+}
+
+button.disabledButton{
+  background-color: rgb(56, 52, 52);
+}
+
+.increment{
+  background-image: url(/public/add.png);
+  background-position: center;
+  background-size:cover;
+}
+
+.decrement{
+  background-image: url(/public/substract.png);
+  background-position: center;
+  background-size:cover;
+}
+
+#play{
+  background-image: url(/public/play2.png);
+  background-position: center;
+  background-size:cover;
+}
+#reset{
+  background-image: url(/public/reset.png);
+  background-position: center;
+  background-size:cover;
+}
