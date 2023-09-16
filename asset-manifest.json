@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fcc-timer/static/css/main.2d123fa2.css",
+    "main.js": "/fcc-timer/static/js/main.3c38271a.js",
+    "static/js/787.5eb162c0.chunk.js": "/fcc-timer/static/js/787.5eb162c0.chunk.js",
+    "static/media/background-sandclock.jpg": "/fcc-timer/static/media/background-sandclock.971770b658f5b504c406.jpg",
+    "static/media/beepFull.mp3": "/fcc-timer/static/media/beepFull.2fd9d22facbf378b7e07.mp3",
+    "static/media/beepQuarter.mp3": "/fcc-timer/static/media/beepQuarter.46a320adca995b974932.mp3",
+    "index.html": "/fcc-timer/index.html",
+    "main.2d123fa2.css.map": "/fcc-timer/static/css/main.2d123fa2.css.map",
+    "main.3c38271a.js.map": "/fcc-timer/static/js/main.3c38271a.js.map",
+    "787.5eb162c0.chunk.js.map": "/fcc-timer/static/js/787.5eb162c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d123fa2.css",
+    "static/js/main.3c38271a.js"
+  ]
+}
